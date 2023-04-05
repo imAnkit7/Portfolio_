@@ -34,15 +34,15 @@ function togglemode() {
   } else {
     nav.classList.remove('navbar-dark', 'bg-dark')
     nav.classList.add('navbar-lg', 'bg-lg')
-    y[0].style.background = "linear-gradient(to right, rgb(236, 255, 255), rgb(255, 243, 220), rgb(255, 209, 193))";
+    y[0].style.background = "white";
     y[0].style.color = "black";
-    x[0].style.background = "linear-gradient(to right, rgb(236, 255, 255), rgb(255, 243, 220), rgb(255, 209, 193))";
+    x[0].style.background = "white";
     x[0].style.color = "black";
-    x[1].style.background = "linear-gradient(to right, rgb(236, 255, 255), rgb(255, 243, 220), rgb(255, 209, 193))";
+    x[1].style.background = "white";
     x[1].style.color = "black";
-    x[2].style.background = "linear-gradient(to right, rgb(236, 255, 255), rgb(255, 243, 220), rgb(255, 209, 193))";
+    x[2].style.background = "white";
     x[2].style.color = "black";
-    x[3].style.background = "linear-gradient(to right, rgb(236, 255, 255), rgb(255, 243, 220), rgb(255, 209, 193))";
+    x[3].style.background = "white";
     x[3].style.color = "black";
     darkmode = false;
   }
